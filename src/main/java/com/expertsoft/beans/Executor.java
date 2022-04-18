@@ -12,8 +12,8 @@ public class Executor {
     private double res;
 
     public String execute() {
-        res = (a + b) * c;
-
+        //res = (a + b) * c;
+        res = a * b;
         return "result";
     }
 
